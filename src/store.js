@@ -5,5 +5,10 @@ export const store = createStore({
         return {
             count: 1
         }
+    },
+    getters: {
+        COUNT: state => {
+            return state.count;
+        },
     }
 })
