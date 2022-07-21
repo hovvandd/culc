@@ -13,7 +13,7 @@
         },
         data(){
           return {
-            count: this.$store.getters.COUNT,
+
           }
         },
       methods: {
@@ -21,12 +21,16 @@
 
       },
       created() {
-        console.log('asd')
-        console.log(this.count)
+
       }
     }
 </script>
 
-<style lang="scss">
-
+<style>
+  .culc{
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
 </style>
